@@ -16,8 +16,10 @@ sap.ui.define(
 
         oddishOrEvenish: function (value) {
           if (value % 2 == 0) {
+            console.log("even");
             return "even";
           } else {
+            console.log("odd");
             return "odd";
           }
         },
